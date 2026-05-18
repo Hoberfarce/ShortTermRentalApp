@@ -1,1 +1,9 @@
+:root {
+  --primary-text: #423E2A;
+  --bg-clean: #FBFFFB;
+  --accent-green: #95BA7D;
+  --accent-tan: #CCA57B;
+  --btn-brown: #6C4C2B;
+}
+
 /* You can add global styles to this file, and also import other style files */

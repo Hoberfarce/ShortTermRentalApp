@@ -1,0 +1,10 @@
+.trust-bar{
+  background-color: var(--primary-text);
+  color: var(--bg-clean);
+  padding: 60px 80px;
+  margin-top: 60px;
+}
+
+div.bar-content{
+  max-width: 600px;
+}
