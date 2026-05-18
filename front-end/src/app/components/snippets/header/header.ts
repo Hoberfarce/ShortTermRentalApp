@@ -5,8 +5,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   selector: 'app-header',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './componentssnippetsheader.html',
-  styleUrls: ['./componentssnippetsheader.css'],
+  templateUrl: './header.html',
+  styleUrls: ['./header.css'],
 })
 export class HeaderComponent {
   isSearchHidden = true;

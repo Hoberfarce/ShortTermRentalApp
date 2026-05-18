@@ -1,18 +1,19 @@
 <main class="feed">
       <section class="collection-container">
         <div class="card-track">
-
-          <article class="card">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Premium Villa in East Legon">
-              <span class="badge">Verified Luxury</span>
-            </div>
-            <div class="details">
-              <h3>The Sapphire Villa</h3>
-              <p class="location">East Legon, Accra</p>
-              <p class="price"><strong>$750</strong></p>
-            </div>
-          </article>
+            @for (item of items; track $index) {
+              <article class="card">
+                <div class="thumbnail">
+                  <img src="{{ item.imageUrl }}" alt="{{ item.title }}">
+                  <span class="badge">Verified Luxury</span>
+                </div>
+                <div class="details">
+                  <h3>{{ item.title }}</h3>
+                  <p class="location">{{ item.location }}</p>
+                  <p class="price"><strong>${{ item.pricePerNight }}</strong></p>
+                </div>
+              </article>
+            }
         </div>
       </section>
     </main>

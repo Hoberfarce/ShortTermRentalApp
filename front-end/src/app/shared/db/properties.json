@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Coastal Retreat with Ocean Views",
+    "tags": ["sea view", "family-friendly", "hot tub"],
+    "description": "A bright and airy beach house with panoramic ocean views, walking distance to the shore, and a fully equipped kitchen.",
+    "pricePerNight": 240,
+    "location": "Morro Bay, CA",
+    "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Downtown Loft near Attractions",
+    "tags": ["city", "walkable", "wifi"],
+    "description": "Stylish open-plan loft in the heart of downtown, with easy access to dining, nightlife, and public transport.",
+    "pricePerNight": 180,
+    "location": "Portland, OR",
+    "imageUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Mountain Cabin Escape",
+    "tags": ["secluded", "hiking", "fireplace"],
+    "description": "Cozy log cabin nestled in the pines with stunning mountain views, a fireplace, and private hiking trails.",
+    "pricePerNight": 220,
+    "location": "Aspen, CO",
+    "imageUrl": "https://images.unsplash.com/photo-1472220625704-91e1462799b2?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Country Farmhouse with Pool",
+    "tags": ["country", "pool", "family"],
+    "description": "Charming farmhouse set on sprawling grounds with a private pool, fire pit, and space for large groups.",
+    "pricePerNight": 305,
+    "location": "Napa Valley, CA",
+    "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80"
+  }
+]
