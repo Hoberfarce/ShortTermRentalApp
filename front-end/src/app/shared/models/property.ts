@@ -6,6 +6,7 @@ export class Property {
     pricePerNight!: number;
     location!: string;
     imageUrl!: string;
+    luxuryVerified?: boolean;
 
     constructor(id: number, title: string, tags: string[], description: string, pricePerNight: number, location: string, imageUrl: string) {
         this.id = id;

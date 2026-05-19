@@ -22,7 +22,7 @@
 }
 
 .card {
-  flex: 0 0 320px; /* Prevents card columns from squishing under 320px */
+  flex: 0 0 180px; /* Prevents card columns from squishing under 320px */
   cursor: pointer;
 }
 

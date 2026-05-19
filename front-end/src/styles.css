@@ -4,6 +4,9 @@
   --accent-green: #95BA7D;
   --accent-tan: #CCA57B;
   --btn-brown: #6C4C2B;
+  --border-light: rgba(66, 62, 42, 0.12);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 16px rgba(66, 62, 42, 0.08);
 }
 
 /* Global Foundations */
@@ -18,4 +21,18 @@ body {
   background-color: var(--bg-clean);
   color: var(--primary-text);
   line-height: 1.5;
+}
+
+/* Layout: make app root a column and allow main content to grow
+   so footer (with margin-top:auto) stays at the bottom */
+html, body {
+  height: 100%;
+}
+app-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main.content {
+  flex: 1 0 auto;
 }

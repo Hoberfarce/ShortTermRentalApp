@@ -1,13 +1,43 @@
 <div class="header">
     <h1>TenaBea</h1>
-    <nav class="nav-links">
-        <a routerLink="/">Explore</a>
-        <a routerLink="/verify">Verify a Property</a>
-        <a routerLink="/hosting">Host with Us</a>
-    </nav>
-      <button class="toggle-search" (click)="toggleSearch()">&#128269;</button>
+    <div class="search-widget">
+        <div class="tabs">
+            <a routerLink="/"><div class="tab">Homes</div></a>
+            <a routerLink="/verify"><div class="tab">Experiences</div></a>
+            <a routerLink="/hosting"><div class="tab">Services</div></a>
+        </div>
+        
+        <div class="search-container">
+        <div class="search-bar">
+            <div class="search-input-group">
+                <label>WHERE</label>
+                <input placeholder="Search destinations"/>
+            </div>
+
+            <div class="vertical-divider"></div>
+            
+            <div class="search-input-group">
+                <label>WHEN</label>
+                <input placeholder="Add dates"/>
+            </div>
+
+            <div class="vertical-divider"></div>
+
+            <div class="search-input-group">
+                <label>WHO</label>
+                <input placeholder="Add guests"/>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="user-actions">
+        <button>Become a Host</button>
+        <button>&#127760;</button>
+        <button>☰</button>
+    </div>
 </div>
+    
 <section class="search" [class.hidden]="isSearchHidden">
     <div class="search-container">
-    <h1>Find Your Next Stay</h1><input/><a href="/search.html">&#128269;</a></div>
+    <h1>Find Your Next Stay</h1><input/><a routerLink="/search">&#128269;</a></div>
 </section>

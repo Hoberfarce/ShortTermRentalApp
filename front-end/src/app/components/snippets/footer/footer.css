@@ -8,3 +8,8 @@
 div.bar-content{
   max-width: 600px;
 }
+
+:host {
+  display: block;
+  margin-top: auto;
+}
